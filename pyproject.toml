@@ -1,0 +1,7 @@
+[project]
+# Support Python 3.10+.
+requires-python = ">=3.10"
+
+[tool.ruff]
+select = ["E", "F", "B", "Q", "ERA", "COM", "FBT", "EM", "T20"]
+exclude = [".env"]
